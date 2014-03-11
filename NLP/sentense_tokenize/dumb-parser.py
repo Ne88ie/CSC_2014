@@ -10,8 +10,8 @@ def tokenize(input_file, output_file):
     output.write("<sentence>")
     for line in open(input_file, 'r'):
         regex = re.compile("[.?!]")
-        out = regex.sub(line, "</sentence><sentence>")
-        output.write(line)
+        out = re.sub(regex, "</sentence><sentence>", line)
+        output.write(out)
     output.write("</sentence>")
     output.close()
 

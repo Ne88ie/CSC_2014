@@ -17,7 +17,7 @@ def build_interval_set(filename, dictname, sentence_text_tag):
             length = len(elem.text) if not elem.text is None else 0
             dictname[pos] = pos + length
             pos += length + 1 # Spaces between sentences and new lines don't matter.
-    print dictname
+    # print dictname
 
 ###
 

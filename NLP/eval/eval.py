@@ -9,29 +9,15 @@ INTERVALS_PARSE_RES = {}
 
 ### Utils ###
 
-def build_testing_set():
-    global TESTING_SET
-    global INTERVALS_TESTING_SET
-    iparse = iterparse(TESTING_SET)
+def build_interval_set(filename, dictname, sentence_text_tag):
+    iparse = iterparse(filename)
     pos = 0
     for event, elem in iparse:
-        if elem.tag == "source":
-            length = len(elem.text)
-            INTERVALS_TESTING_SET[pos] = pos + length
-            pos += length + 1 # Spaces between sentences and new lines don't matter.
-    # print INTERVALS_TESTING_SET
-
-def build_parse_res():
-    global PARSE_RES
-    global INTERVALS_PARSE_RES
-    iparse = iterparse(PARSE_RES)
-    pos = 0
-    for event, elem in iparse:
-        if elem.tag == "sentence":
+        if elem.tag == sentence_text_tag:
             length = len(elem.text) if not elem.text is None else 0
-            INTERVALS_PARSE_RES[pos] = pos + length
-            pos += length + 1
-    # print INTERVALS_PARSE_RES
+            dictname[pos] = pos + length
+            pos += length + 1 # Spaces between sentences and new lines don't matter.
+    print dictname
 
 ###
 
@@ -57,7 +43,7 @@ def recall():
 def f_measure():
     prec = precision()
     rec = recall()
-    return 2 * prec * rec / (prec + rec)
+    return 2 * prec * rec / (prec + rec) if prec + rec > 0 else 0.0
 
 def accuracy():
     global INTERVALS_TESTING_SET
@@ -72,8 +58,11 @@ def main():
     PARSE_RES = argv[1]
     TESTING_SET = argv[2]
 
-    build_testing_set()
-    build_parse_res()
+    global INTERVALS_TESTING_SET
+    global INTETVALS_PARSE_RES
+
+    build_interval_set(TESTING_SET, INTERVALS_TESTING_SET, "source")
+    build_interval_set(PARSE_RES, INTERVALS_PARSE_RES, "sentence")
 
     print "\nPrecision: %s\nRecall: %s\nF-measure: %s\nAccuracy: %s\n" % (precision(),
                                                                           recall(),

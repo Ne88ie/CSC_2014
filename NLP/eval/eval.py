@@ -36,12 +36,12 @@ def relevant_retrieved():
 def precision():
     global INTERVALS_PARSE_RES
     retrieved = len(INTERVALS_PARSE_RES)
-    return relevant_retrieved() * 1.0 / retrieved
+    return relevant_retrieved() * 1.0 / retrieved if retrieved > 0 else 0.0
 
 def recall():
     global INTERVALS_TESTING_SET
     relevant = len(INTERVALS_TESTING_SET)
-    return relevant_retrieved() * 1.0 / relevant
+    return relevant_retrieved() * 1.0 / relevant if relevant > 0 else 0.0
 
 def f_measure():
     prec = precision()
@@ -52,7 +52,8 @@ def accuracy():
     global INTERVALS_TESTING_SET
     global INTERVALS_PARSE_RES
     rel_retr = relevant_retrieved()
-    return rel_retr * 1.0 / (len(INTERVALS_TESTING_SET) + len(INTERVALS_PARSE_RES) - rel_retr) 
+    fct = len(INTERVALS_TESTING_SET) + len(INTERVALS_PARSE_RES) - rel_retr
+    return rel_retr * 1.0 / fct if fct > 0 else 0.0
 
 def main():
     global PARSE_RES

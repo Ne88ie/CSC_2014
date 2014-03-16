@@ -1,5 +1,5 @@
-__author__ = 'lia'
 # -*- coding: utf-8 -*-
+__author__ = 'lia'
 from lxml import etree as ET
 from sys import argv
 import codecs
@@ -41,7 +41,7 @@ def tokenize(input_file, output_file):
                     while next == ' ' or next == '\n':
                         next_next.append(next)
                         next = input.read(1)
-                    if not next.isupper():
+                    if not next.isupper() and next != '"' and next != u'«':
                         sentence_text.extend(next_next)
                         sentence_text.append(next)
                         continue

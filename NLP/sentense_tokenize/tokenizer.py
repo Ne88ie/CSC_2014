@@ -19,6 +19,7 @@ def tokenize(input_file, output_file):
         if "" == c:
             break
         if c == '\n':
+            sentence_text.append(" ")
             continue
         if c == '"' or c == u'«':
             sentence_text.append(c)

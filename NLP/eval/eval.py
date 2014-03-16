@@ -3,6 +3,9 @@ from sys import argv
 
 PARSE_RES = ""
 TESTING_SET = ""
+# We use only XML format.
+PARSER_SENTENCE_TAG = "sentence"
+TESTING_SET_SENTENCE_TAG = "source"
 # Sentence is a strict interval: [start_pos, end_pos]. This is transformed into a dict: { start_pos: end_pos }.
 INTERVALS_TESTING_SET = {}
 INTERVALS_PARSE_RES = {}
@@ -58,11 +61,17 @@ def main():
     PARSE_RES = argv[1]
     TESTING_SET = argv[2]
 
+    global PARSER_SENTENCE_TAG
+    global TESTING_SET_SENTENCE_TAG
+
+    if len(argv) >= 4:
+        TESTING_SET_SENTENCE_TAG = argv[3]
+
     global INTERVALS_TESTING_SET
     global INTETVALS_PARSE_RES
 
-    build_interval_set(TESTING_SET, INTERVALS_TESTING_SET, "source")
-    build_interval_set(PARSE_RES, INTERVALS_PARSE_RES, "sentence")
+    build_interval_set(TESTING_SET, INTERVALS_TESTING_SET, TESTING_SET_SENTENCE_TAG)
+    build_interval_set(PARSE_RES, INTERVALS_PARSE_RES, PARSER_SENTENCE_TAG)
 
     print "\nPrecision: %s\nRecall: %s\nF-measure: %s\nAccuracy: %s\n" % (precision(),
                                                                           recall(),

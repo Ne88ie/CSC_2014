@@ -1,0 +1,28 @@
+ обучение
+java -cp "/Users/annie/mallet-2.0.7/class:/Users/annie/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger  --train true --model-file "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/trained_model_step"  "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/ru_corpus.train_with_feats_step1.txt"
+
+java -cp "/Users/annie/mallet-2.0.7/class:/Users/annie/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger  --train true --model-file "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/trained_model_step2"  "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/ru_corpus.train_with_feats_step2.txt"
+
+
+тест
+java -cp "/Users/annie/mallet-2.0.7/class:/Users/annie/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/trained_model_step2" --test lab "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/ru_corpus.test_with_feats_step2.txt"
+
+test:
+Number of predicates: 10630
+Labels: O B-ORG I-ORG B-PER I-PER
+Testing accuracy=0.949343607305936
+
+
+
+обучение снова
+java -cp "/Users/annie/mallet-2.0.7/class:/Users/annie/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --train true --continue-training true --model-file "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/trained_model_step2" "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/ru_corpus.train_with_feats2.txt"
+
+after training again test:
+Number of predicates: 14516
+Labels: O B-ORG I-ORG B-PER I-PER B-PERS I-PERS
+Testing accuracy=0.9450627853881278
+
+
+
+вывод в файл:
+java -cp "/Users/annie/mallet-2.0.7/class:/Users/annie/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/trained_model_step2" "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/ru_corpus.test_with_feats.txt" > "/Users/annie/Sites/python3_proj/nlp2014/mikhaylova_moiseeva_bakradze/hw4/data/out_step2.txt"

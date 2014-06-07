@@ -1,0 +1,6 @@
+Below are the result for the marked file unmarked_corpora.txt:
+
+Precision: 0.774560669456
+Recall: 0.647154366603
+F-measure: 0.705148791036
+Accuracy: 0.544579011206

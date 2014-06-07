@@ -1,0 +1,117 @@
+Results for Step 1:
+ 		B-ORG		I-ORG		B-PER		I-PER		O
+B-ORG		45		1		8		1		148
+I-ORG		5		34		9		11		117
+B-PER		1		6		15		5		54
+I-PER		0		0		1		16		37
+O		0		1		0		0		6493
+
+B-ORG:
+	precision = 0.882353
+	recall = 0.221675
+	f_measure = 0.354331
+I-ORG:
+	precision = 0.809524
+	recall = 0.193182
+	f_measure = 0.311927
+B-PER:
+	precision = 0.454545
+	recall = 0.185185
+	f_measure = 0.263158
+I-PER:
+	precision = 0.484848
+	recall = 0.296296
+	f_measure = 0.367816
+O:
+	precision = 0.948022
+	recall = 0.999846
+	f_measure = 0.973244
+
+Accuracy on all tokens = 0.94220890411
+
+The accuracy, recall and F-measure on the boundaries registered entities:
+ORG:
+	precision = 0.333333
+	recall = 0.083744
+	f_measure = 0.133858
+
+PER:
+	precision = 0.424242
+	recall = 0.172840
+	f_measure = 0.245614
+
+Registered entities:
+	precision = 0.369048
+	recall = 0.109155
+	f_measure = 0.168478
+
+Micro-accuracy, micro-recall and micro-F-measure:
+ORG:
+	micro-precision = 0.849462
+	micro-recall = 0.208443
+	micro-f_measure = 0.334746
+
+PER:
+	micro-precision = 0.653333
+	micro-recall = 0.190661
+	micro-f_measure = 0.295181
+
+
+
+Results for Step 2:
+ 		B-ORG		I-ORG		B-PER		I-PER		O
+B-ORG		20		1		0		0		182
+I-ORG		4		13		0		0		159
+B-PER		0		0		9		0		72
+I-PER		0		0		0		9		45
+O		12		0		0		0		6482
+
+B-ORG:
+	precision = 0.555556
+	recall = 0.098522
+	f_measure = 0.167364
+I-ORG:
+	precision = 0.928571
+	recall = 0.073864
+	f_measure = 0.136842
+B-PER:
+	precision = 1.000000
+	recall = 0.111111
+	f_measure = 0.200000
+I-PER:
+	precision = 1.000000
+	recall = 0.166667
+	f_measure = 0.285714
+O:
+	precision = 0.934006
+	recall = 0.998152
+	f_measure = 0.965014
+
+Accuracy on all tokens = 0.932220319635
+
+The accuracy, recall and F-measure on the boundaries registered entities:
+ORG:
+	precision = 0.361111
+	recall = 0.064039
+	f_measure = 0.108787
+
+PER:
+	precision = 1.000000
+	recall = 0.111111
+	f_measure = 0.200000
+
+Registered entities:
+	precision = 0.488889
+	recall = 0.077465
+	f_measure = 0.133739
+
+Micro-accuracy, micro-recall and micro-F-measure:
+ORG:
+	micro-precision = 0.660000
+	micro-recall = 0.087071
+	micro-f_measure = 0.153846
+
+PER:
+	micro-precision = 0.956522
+	micro-recall = 0.085603
+	micro-f_measure = 0.157143

@@ -1,0 +1,91 @@
+Iteration #1
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '08.txt', '11.txt', '12.txt', '13.txt', '15.txt', '16.txt', '17.txt', '19.txt', '20.txt', '21.txt', '22.txt', '23.txt', '24.txt', '26.txt', '28.txt', '29.txt', '30.txt']
+No class: ['01.txt', '02.txt', '03.txt', '06.txt', '07.txt', '09.txt', '10.txt', '11.txt', '13.txt', '14.txt', '16.txt', '18.txt', '20.txt', '21.txt', '22.txt', '23.txt', '26.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['04.txt', '05.txt', '06.txt', '07.txt', '09.txt', '10.txt', '14.txt', '18.txt', '25.txt', '27.txt']
+No class: ['04.txt', '05.txt', '08.txt', '12.txt', '15.txt', '17.txt', '19.txt', '24.txt', '25.txt', '30.txt']
+Results: precision 0.600000, recall 0.900000, F-measure 0.720000
+
+Iteration #2
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '05.txt', '06.txt', '07.txt', '08.txt', '09.txt', '13.txt', '15.txt', '16.txt', '18.txt', '20.txt', '21.txt', '22.txt', '23.txt', '25.txt', '26.txt', '28.txt', '29.txt']
+No class: ['02.txt', '06.txt', '09.txt', '12.txt', '13.txt', '14.txt', '15.txt', '17.txt', '18.txt', '19.txt', '20.txt', '21.txt', '22.txt', '23.txt', '24.txt', '25.txt', '27.txt', '28.txt', '29.txt', '30.txt']
+Testing set:
+Class: ['04.txt', '10.txt', '11.txt', '12.txt', '14.txt', '17.txt', '19.txt', '24.txt', '27.txt', '30.txt']
+No class: ['01.txt', '03.txt', '04.txt', '05.txt', '07.txt', '08.txt', '10.txt', '11.txt', '16.txt', '26.txt']
+Results: precision 0.600000, recall 0.900000, F-measure 0.720000
+
+Iteration #3
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '09.txt', '10.txt', '11.txt', '12.txt', '13.txt', '15.txt', '16.txt', '17.txt', '19.txt', '21.txt', '22.txt', '23.txt', '24.txt', '25.txt', '26.txt', '27.txt', '30.txt']
+No class: ['03.txt', '04.txt', '05.txt', '06.txt', '09.txt', '10.txt', '11.txt', '12.txt', '13.txt', '15.txt', '16.txt', '17.txt', '18.txt', '20.txt', '21.txt', '23.txt', '25.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['04.txt', '05.txt', '06.txt', '07.txt', '08.txt', '14.txt', '18.txt', '20.txt', '28.txt', '29.txt']
+No class: ['01.txt', '02.txt', '07.txt', '08.txt', '14.txt', '19.txt', '22.txt', '24.txt', '26.txt', '30.txt']
+Results: precision 0.526316, recall 1.000000, F-measure 0.689655
+
+Iteration #4
+Training set:
+Class: ['03.txt', '04.txt', '05.txt', '06.txt', '08.txt', '09.txt', '10.txt', '12.txt', '13.txt', '14.txt', '15.txt', '16.txt', '17.txt', '18.txt', '19.txt', '22.txt', '25.txt', '28.txt', '29.txt', '30.txt']
+No class: ['01.txt', '02.txt', '04.txt', '06.txt', '07.txt', '08.txt', '09.txt', '11.txt', '12.txt', '13.txt', '14.txt', '15.txt', '16.txt', '18.txt', '21.txt', '23.txt', '25.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['01.txt', '02.txt', '07.txt', '11.txt', '20.txt', '21.txt', '23.txt', '24.txt', '26.txt', '27.txt']
+No class: ['03.txt', '05.txt', '10.txt', '17.txt', '19.txt', '20.txt', '22.txt', '24.txt', '26.txt', '30.txt']
+Results: precision 0.470588, recall 0.800000, F-measure 0.592593
+
+Iteration #5
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '06.txt', '08.txt', '09.txt', '12.txt', '13.txt', '15.txt', '16.txt', '17.txt', '18.txt', '19.txt', '21.txt', '22.txt', '23.txt', '24.txt', '25.txt', '26.txt', '27.txt']
+No class: ['01.txt', '03.txt', '04.txt', '07.txt', '08.txt', '09.txt', '12.txt', '13.txt', '15.txt', '16.txt', '17.txt', '18.txt', '21.txt', '22.txt', '23.txt', '26.txt', '27.txt', '28.txt', '29.txt', '30.txt']
+Testing set:
+Class: ['04.txt', '05.txt', '07.txt', '10.txt', '11.txt', '14.txt', '20.txt', '28.txt', '29.txt', '30.txt']
+No class: ['02.txt', '05.txt', '06.txt', '10.txt', '11.txt', '14.txt', '19.txt', '20.txt', '24.txt', '25.txt']
+Results: precision 0.642857, recall 0.900000, F-measure 0.750000
+
+Iteration #6
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '05.txt', '06.txt', '08.txt', '09.txt', '12.txt', '13.txt', '14.txt', '15.txt', '16.txt', '17.txt', '18.txt', '19.txt', '21.txt', '23.txt', '25.txt', '27.txt', '30.txt']
+No class: ['03.txt', '06.txt', '07.txt', '08.txt', '10.txt', '11.txt', '12.txt', '13.txt', '14.txt', '15.txt', '16.txt', '17.txt', '18.txt', '19.txt', '20.txt', '22.txt', '23.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['04.txt', '07.txt', '10.txt', '11.txt', '20.txt', '22.txt', '24.txt', '26.txt', '28.txt', '29.txt']
+No class: ['01.txt', '02.txt', '04.txt', '05.txt', '09.txt', '21.txt', '24.txt', '25.txt', '26.txt', '30.txt']
+Results: precision 0.526316, recall 1.000000, F-measure 0.689655
+
+Iteration #7
+Training set:
+Class: ['02.txt', '04.txt', '05.txt', '07.txt', '09.txt', '10.txt', '13.txt', '15.txt', '17.txt', '18.txt', '19.txt', '21.txt', '22.txt', '23.txt', '24.txt', '26.txt', '27.txt', '28.txt', '29.txt', '30.txt']
+No class: ['01.txt', '02.txt', '03.txt', '05.txt', '07.txt', '08.txt', '10.txt', '13.txt', '15.txt', '16.txt', '17.txt', '19.txt', '20.txt', '22.txt', '24.txt', '25.txt', '26.txt', '28.txt', '29.txt', '30.txt']
+Testing set:
+Class: ['01.txt', '03.txt', '06.txt', '08.txt', '11.txt', '12.txt', '14.txt', '16.txt', '20.txt', '25.txt']
+No class: ['04.txt', '06.txt', '09.txt', '11.txt', '12.txt', '14.txt', '18.txt', '21.txt', '23.txt', '27.txt']
+Results: precision 0.750000, recall 0.900000, F-measure 0.818182
+
+Iteration #8
+Training set:
+Class: ['01.txt', '03.txt', '04.txt', '05.txt', '07.txt', '08.txt', '09.txt', '10.txt', '11.txt', '12.txt', '13.txt', '15.txt', '16.txt', '19.txt', '20.txt', '21.txt', '23.txt', '27.txt', '29.txt', '30.txt']
+No class: ['02.txt', '03.txt', '05.txt', '06.txt', '07.txt', '09.txt', '10.txt', '11.txt', '12.txt', '13.txt', '15.txt', '17.txt', '18.txt', '22.txt', '23.txt', '25.txt', '26.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['02.txt', '06.txt', '14.txt', '17.txt', '18.txt', '22.txt', '24.txt', '25.txt', '26.txt', '28.txt']
+No class: ['01.txt', '04.txt', '08.txt', '14.txt', '16.txt', '19.txt', '20.txt', '21.txt', '24.txt', '30.txt']
+Results: precision 0.555556, recall 1.000000, F-measure 0.714286
+
+Iteration #9
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '04.txt', '05.txt', '06.txt', '07.txt', '08.txt', '09.txt', '10.txt', '12.txt', '14.txt', '16.txt', '17.txt', '20.txt', '24.txt', '25.txt', '27.txt', '28.txt', '29.txt']
+No class: ['02.txt', '03.txt', '05.txt', '06.txt', '07.txt', '08.txt', '09.txt', '10.txt', '11.txt', '13.txt', '17.txt', '18.txt', '19.txt', '20.txt', '21.txt', '24.txt', '25.txt', '27.txt', '28.txt', '29.txt']
+Testing set:
+Class: ['11.txt', '13.txt', '15.txt', '18.txt', '19.txt', '21.txt', '22.txt', '23.txt', '26.txt', '30.txt']
+No class: ['01.txt', '04.txt', '12.txt', '14.txt', '15.txt', '16.txt', '22.txt', '23.txt', '26.txt', '30.txt']
+Results: precision 0.500000, recall 1.000000, F-measure 0.666667
+
+Iteration #10
+Training set:
+Class: ['01.txt', '02.txt', '03.txt', '04.txt', '06.txt', '08.txt', '09.txt', '10.txt', '12.txt', '13.txt', '14.txt', '18.txt', '19.txt', '20.txt', '21.txt', '24.txt', '26.txt', '28.txt', '29.txt', '30.txt']
+No class: ['06.txt', '07.txt', '08.txt', '09.txt', '10.txt', '11.txt', '14.txt', '15.txt', '16.txt', '17.txt', '18.txt', '19.txt', '21.txt', '22.txt', '23.txt', '24.txt', '25.txt', '26.txt', '27.txt', '30.txt']
+Testing set:
+Class: ['05.txt', '07.txt', '11.txt', '15.txt', '16.txt', '17.txt', '22.txt', '23.txt', '25.txt', '27.txt']
+No class: ['01.txt', '02.txt', '03.txt', '04.txt', '05.txt', '12.txt', '13.txt', '20.txt', '28.txt', '29.txt']
+Results: precision 0.600000, recall 0.900000, F-measure 0.720000
+
+Average precision 0.577163, average recall 0.930000, average F-measure 0.708104

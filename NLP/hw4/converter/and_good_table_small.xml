@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<taskDocumentMatrix xmlns="http://www.romip.ru/common/merged-results-QA-facts-extraction" type="and (good)">
+ <task id="qaf2-30044">
+  <fact  firstText="ГРУЗИЯ" secondText="Бурджанадзе Нино" systemLength="39" userLength="39" systemOffset="292" userOffset="292" cathegory="employs" entityOffset="16" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+ </task>
+ <task id="qaf3-23158">
+  <fact  firstText="САТВЕРСМЕ" secondText="Микелсонс Дайнис" systemLength="63" userLength="63" systemOffset="11799" userOffset="11799" cathegory="employs" entityOffset="31" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="БЮРО" secondText="ПУМПУРС ВАЛДИС" systemLength="323" userLength="323" systemOffset="11475" userOffset="11475" cathegory="employs" entityOffset="154" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="BITE" secondText="Плинер Яков" systemLength="104" userLength="104" systemOffset="17515" userOffset="17515" cathegory="employs" entityOffset="24" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;РАВНОПРАВИЕ&quot;" secondText="Митрофанов Мирослав" systemLength="47" userLength="47" systemOffset="17074" userOffset="17074" cathegory="employs" entityOffset="15" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="МИНИСТЕРСТВО ИНТЕГРАЦИИ" secondText="Муйжниекс Нил" systemLength="32" userLength="32" systemOffset="16318" userOffset="16318" cathegory="employs" entityOffset="0" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="ЛАТВИЯ" secondText="Вике-Фрейберг Вайра" systemLength="38" userLength="38" systemOffset="536" userOffset="536" cathegory="employs" entityOffset="11" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;РАВНОПРАВИЕ&quot;" secondText="ЖДАНОК ТАТЬЯНА" systemLength="203" userLength="203" systemOffset="17726" userOffset="17726" cathegory="employs" entityOffset="135" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;RIGAS FONDU BIRZA&quot;" secondText="КОКОРЕВИЧ" systemLength="138" userLength="138" systemOffset="25779" userOffset="25779" cathegory="employs" entityOffset="96" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="БЮРО ПО ПРЕДОТВРАЩЕНИЮ И БОРЬБЕ С КОРРУПЦИЕЙ" secondText="Пумпурс Валдис" systemLength="89" userLength="89" systemOffset="11606" userOffset="11606" cathegory="employs" entityOffset="23" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="МИНИСТЕРСТВО ИНОСТРАННЫХ ДЕЛ ЛАТВИИ" secondText="Калниете Сандра" systemLength="46" userLength="46" systemOffset="3504" userOffset="3504" cathegory="employs" entityOffset="0" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="ЮКОС" secondText="Ходорковский Михаил" systemLength="35" userLength="35" systemOffset="4071" userOffset="4071" cathegory="employs" entityOffset="7" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;BITE&quot;" secondText="ПЛИНЕР ЯКОВ" systemLength="104" userLength="104" systemOffset="17515" userOffset="17515" cathegory="employs" entityOffset="24" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;СГН&quot;" secondText="СОКОЛОВ ВЛАДИМИР" systemLength="68" userLength="68" systemOffset="1844" userOffset="1844" cathegory="employs" entityOffset="24" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="LMT" secondText="Бинде Юрис" systemLength="26" userLength="26" systemOffset="24958" userOffset="24958" cathegory="employs" entityOffset="11" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+  <fact  firstText="&quot;РАВНОПРАВИЕ&quot;" secondText="Жданок Татьяна" systemLength="37" userLength="37" systemOffset="17853" userOffset="17853" cathegory="employs" entityOffset="9" collectionIdRef="ROMIP-2005-News" relevance="vital"/>
+ </task>
+</taskDocumentMatrix>

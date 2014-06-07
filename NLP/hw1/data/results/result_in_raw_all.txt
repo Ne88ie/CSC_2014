@@ -1,0 +1,6 @@
+Below are the result for the marked file raw_all.txt:
+
+Precision: 0.550925925926
+Recall: 0.391447368421
+F-measure: 0.457692307692
+Accuracy: 0.296758104738

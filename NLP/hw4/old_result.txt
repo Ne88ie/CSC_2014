@@ -1,0 +1,76 @@
+Results for Step 1:
+ 		B-ORG		I-ORG		B-PER		I-PER		O
+B-ORG		45		1		8		1		148
+I-ORG		5		34		9		11		117
+B-PER		1		6		15		5		54
+I-PER		0		0		1		16		37
+O		0		1		0		0		6493
+accuracy = 0.94220890411
+B-ORG:
+	precision = 0.882353
+	recall = 0.221675
+	f_measure = 0.354331
+I-ORG:
+	precision = 0.809524
+	recall = 0.193182
+	f_measure = 0.311927
+B-PER:
+	precision = 0.454545
+	recall = 0.185185
+	f_measure = 0.263158
+I-PER:
+	precision = 0.484848
+	recall = 0.296296
+	f_measure = 0.367816
+O:
+	precision = 0.948022
+	recall = 0.999846
+	f_measure = 0.973244
+
+
+Точность, полнота и F-мера по границам именных сущностей:
+ORG:
+	precision = 0.913978
+	recall = 0.224274
+	f_measure = 0.360169
+
+PER:
+	precision = 0.560606
+	recall = 0.144531
+	f_measure = 0.229814
+
+Registered entities:
+	precision = 0.767296
+	recall = 0.192126
+	f_measure = 0.307305
+
+
+
+Results for Step 2:
+ 		B-ORG		I-ORG		B-PER		I-PER		O
+B-ORG		45		1		7		1		149
+I-ORG		8		30		13		12		113
+B-PER		1		6		10		7		57
+I-PER		2		0		1		11		40
+O		0		1		0		0		6493
+accuracy = 0.940211187215
+B-ORG:
+	precision = 0.803571
+	recall = 0.221675
+	f_measure = 0.347490
+I-ORG:
+	precision = 0.789474
+	recall = 0.170455
+	f_measure = 0.280374
+B-PER:
+	precision = 0.322581
+	recall = 0.123457
+	f_measure = 0.178571
+I-PER:
+	precision = 0.354839
+	recall = 0.203704
+	f_measure = 0.258824
+O:
+	precision = 0.947607
+	recall = 0.999846
+	f_measure = 0.973026
